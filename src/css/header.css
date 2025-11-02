@@ -1,5 +1,122 @@
-.header {
-  padding: 20px 0;
+/* #region base */
+body {
+    font-family: "Poppins",
+        sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* #endregion base*/
+
+/* #region header */
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 237px;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+    /* line-height: 28px; */
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+}
+
+.nav-logo-img {}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list-item {}
+
+.nav-list-link {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 26px 0;
+    display: block;
+    /* line-height: 28px; */
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.current {
+    font-weight: 600;
+}
+
+.header-list-btn {
+    display: flex;
+    gap: 21px;
+}
+
+.header-item-btn {}
+
+.header-btn {
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.sign-in {
+    border: 1px solid #bcd0e5;
+    width: 105px;
+    height: 42px;
+    color: #173a56;
+    background-color: #fff;
+}
+
+.sign-up {
+    width: 113px;
+    height: 42px;
+    background: #02897a;
+    color: #fff;
 }
 .nav {
   display: flex;
